@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portafolio-lesly/static/css/main.3ca71bd2.css",
-    "main.js": "/portafolio-lesly/static/js/main.b33e79bd.js",
+    "main.js": "/portafolio-lesly/static/js/main.a656af6d.js",
     "static/media/caso7.png": "/portafolio-lesly/static/media/caso7.fb023d250724f42d3f84.png",
     "static/media/caso4.png": "/portafolio-lesly/static/media/caso4.623757a0cd5fe2b207c1.png",
     "static/media/caso2.png": "/portafolio-lesly/static/media/caso2.a593ce0d95adda48af69.png",
@@ -33,10 +33,10 @@
     "static/media/tiktok-hover.svg": "/portafolio-lesly/static/media/tiktok-hover.7cb6e34708d572ffc1ef.svg",
     "static/media/tiktok.svg": "/portafolio-lesly/static/media/tiktok.311b08d301ab0d2e79e5e8ebb57aa16a.svg",
     "main.3ca71bd2.css.map": "/portafolio-lesly/static/css/main.3ca71bd2.css.map",
-    "main.b33e79bd.js.map": "/portafolio-lesly/static/js/main.b33e79bd.js.map"
+    "main.a656af6d.js.map": "/portafolio-lesly/static/js/main.a656af6d.js.map"
   },
   "entrypoints": [
     "static/css/main.3ca71bd2.css",
-    "static/js/main.b33e79bd.js"
+    "static/js/main.a656af6d.js"
   ]
 }

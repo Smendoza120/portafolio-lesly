@@ -1,0 +1,114 @@
+@import "./variables";
+@import "./mixinxs";
+
+.contacto {
+  &__tittle {
+    @include title;
+  }
+  &__image{
+    display: none;
+  }
+  &__form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+    margin: 0 15px;
+    padding-bottom: 20px;
+  }
+  &__input {
+    padding: 8px;
+    border: none;
+    border-radius: 3px;
+    opacity: 0.62;
+    margin-left: 5px;
+  }
+  &__name,
+  &__email,
+  &__subject,
+  &__message {
+    @include form;
+  }
+  &__text-area {
+    opacity: 0.62;
+    padding: 5px 8px;
+    height: 100px;
+    margin-left: 5px;
+    resize: none;
+    border-radius: 3px;
+    border: none;
+  }
+  &__buttons {
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 5px;
+  }
+  &__button {
+    border: 1px solid $ColorTerciario;
+    transition: 0.3s linear;
+    cursor: pointer;
+    &:hover {
+      border-radius: 5px;
+      -webkit-box-shadow: -2px 2px 5px 0px rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: -2px 2px 5px 0px rgba(0, 0, 0, 0.75);
+      box-shadow: -2px 2px 5px 0px rgba(0, 0, 0, 0.75);
+      transform: scale(1.02);
+    }
+  }
+  &__button:first-child {
+    padding: 5px 12px;
+    background: $ColorTerciario;
+    color: $ColorSecundario;
+    &:hover {
+      color: $ColorTerciario;
+      background: $ColorSecundario;
+    }
+  }
+  &__button:last-child {
+    padding: 5px 8px;
+    background: $ColorSecundario;
+    color: $ColorTerciario;
+    &:hover {
+      background: $ColorTerciario;
+      color: $ColorSecundario;
+    }
+  }
+  &__error{
+    font-size: .9em;
+    padding: 1px 10px;
+    color: $ColorSecundario;
+    font-weight: 300;
+  }
+  &__confirm{
+    color: $ColorSecundario;
+    font-weight: 500;
+    font-size: 1.2em;
+  }
+  @media (min-width: 768px){
+    &__info{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 25px;
+      margin-top: 10px;
+    }
+    &__image{
+      display: block;
+      width: 300px;
+    }
+    &__form{
+      width: 50%;
+    }
+  }
+  @media (min-width: 1024px){
+    &__info{
+      gap: 100px;
+    }
+    &__form{
+      width: 40%;
+    }
+  }
+}

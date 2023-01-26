@@ -1,0 +1,26 @@
+@import './header';
+@import './navBar';
+@import './navMobile';
+@import './acerca-de';
+@import './aplicaciones';
+@import './proyectos';
+@import './videos';
+@import './contacto';
+@import './footer';
+@import './mixinxs';
+@import './variables';
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: $Font;
+  font-size: 18px;
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar-thumb{
+  border: 1px solid red;
+  color: red;
+  background: red;
+}

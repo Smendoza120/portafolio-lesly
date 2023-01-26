@@ -1,0 +1,47 @@
+@import './variables';
+
+.nav{
+  &__container{
+    list-style: none;
+    display: flex;
+    align-items: flex-end;
+    justify-content: start;
+    gap: 15px;
+  }
+  &__list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+  }
+  &__image{
+    transition: .3s linear;
+  }
+  &__links{
+    color: $ColorSecundario;
+    text-decoration: none;
+    transition: .1s linear;
+    font-size: 1.1em;
+    &:hover{
+      color: $HoverIconos;
+      text-decoration: underline;
+    }
+  }
+}
+
+.one:hover > .first{
+  content: url('../images/Acerca-de-hover.svg');
+}
+
+.two:hover > .second{
+  content: url('../images/Aplicaciones-hover.svg');
+}
+
+.three:hover > .third{
+  content: url('../images/Proyectos-hover.svg');
+}
+
+.four:hover > .fourth{
+  content: url('../images/Contacto-hover.svg');
+}

@@ -1,0 +1,51 @@
+@import './variables';
+@import './mixinxs';
+
+.aplicaciones{
+  &__container{
+    padding: 10px;
+  }
+  &__tittle{
+    @include title;
+  }
+  &__content{
+    margin-top: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+  }
+  &__text{
+    font-size: 1.2em;
+    font-weight: 300;
+    color: $ColorSecundario;
+    text-align: justify;
+  }
+  &__text:first-child{
+    margin-bottom: 25px;
+  }
+  &__image{
+    width: 250px;
+    margin-top: 10px;
+  }
+  @media (min-width: 768px){
+    &__container{
+      padding: 20px;
+    }
+    &__content{
+      flex-direction: row;
+      padding: 15px;
+      gap: 25px;
+    }
+    &__image{
+      margin-left: 30px;
+    }
+  }
+  @media (min-width: 1024px){
+    &__container{
+      padding: 20px 50px;
+    }
+  }
+}

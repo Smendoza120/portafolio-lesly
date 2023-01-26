@@ -1,0 +1,30 @@
+@import './variables';
+
+.mobile{
+  &__container{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  &__links{
+    display: block;
+    width: 100%;
+    padding: 15px 20px;
+    background-color: $ColorPrimario;
+    color: $ColorSecundario;
+    text-decoration: none;
+    transition: .3s linear;
+    &:hover{
+      background: $ColorSecundario;
+      color: $HoverIconos;
+    }
+  }
+  &__list{
+    display: flex;
+    gap: 10px;
+    justify-content: start;
+    align-items: center;
+  }
+}

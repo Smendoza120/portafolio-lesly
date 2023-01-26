@@ -1,0 +1,78 @@
+@import "./variables";
+
+.header {
+  &__container {
+    width: 100%;
+    height: 450px;
+
+    position: relative;
+    background: {
+      image: url("../images/fondo.png");
+      position: center center;
+      size: cover;
+    }
+  }
+  &__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 25px 20px 25px;
+    padding-top: 20px;
+  }
+  &__logo {
+    transition: .5s, color .10s;
+    -webkit-transition: .5s, color .10s;
+    -moz-transition: .5s, color .10s;
+    &:hover {
+      transform: rotateZ(360deg);
+      -webkit-transform: rotateZ(360deg);
+      -moz-transform: rotateZ(360deg);
+    }
+  }
+  &__links {
+    display: none;
+  }
+  &__mobile{
+    transition: .2s linear;
+    position: absolute;
+    right: 0;
+    top: 80px;
+    width: auto;
+    height: 0;
+    overflow: hidden;
+  }
+  &__menu {
+    cursor: pointer;
+  }
+  &__profile {
+    width: 200px;
+
+    border-radius: 50%;
+    border: 3px solid $ColorPrimario;
+
+    position: absolute;
+    bottom: -100px;
+    left: 50%;
+    transform: translate(-50%);
+  }
+  @media (min-width: 768px) {
+    &__nav {
+      margin: 0 40px;
+    }
+    &__menu {
+      display: none;
+      border: 1px solid red;
+    }
+    &__links {
+      display: block;
+    }
+    &__mobile{
+      display: none;
+    }
+  }
+}
+
+.active{
+  height: 210px;
+  border: 1px solid $ColorSecundario;
+}

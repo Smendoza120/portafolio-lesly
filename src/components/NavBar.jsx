@@ -23,7 +23,7 @@ function NavBar() {
             className="nav__image second" 
             src={Aplicaciones} 
             alt="Aplicaciones" />
-          Aplicaciones
+          Habilidades
         </li>
       </a>
 
@@ -33,7 +33,7 @@ function NavBar() {
             className="nav__image third" 
             src={Proyectos} 
             alt="Proyectos" />
-          Habilidades
+          Proyectos
         </li>
       </a>
 

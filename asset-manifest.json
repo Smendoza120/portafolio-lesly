@@ -1,16 +1,19 @@
 {
   "files": {
     "main.css": "/portafolio-lesly/static/css/main.1d1764b5.css",
-    "main.js": "/portafolio-lesly/static/js/main.1e216057.js",
+    "main.js": "/portafolio-lesly/static/js/main.b713ea00.js",
     "static/media/caso7.png": "/portafolio-lesly/static/media/caso7.fb023d250724f42d3f84.png",
     "static/media/caso4.png": "/portafolio-lesly/static/media/caso4.623757a0cd5fe2b207c1.png",
     "static/media/caso2.png": "/portafolio-lesly/static/media/caso2.a593ce0d95adda48af69.png",
     "static/media/caso6.png": "/portafolio-lesly/static/media/caso6.abb4bd0ab1e5c39bb188.png",
+    "static/media/caso14.png": "/portafolio-lesly/static/media/caso14.3fbf92691da01a04061c.png",
     "static/media/caso1.png": "/portafolio-lesly/static/media/caso1.9fe8c6aa016f2afc49e0.png",
     "static/media/caso5.png": "/portafolio-lesly/static/media/caso5.a399e64f0c094c1281ce.png",
+    "static/media/caso12.png": "/portafolio-lesly/static/media/caso12.637a042f815de27d8cf2.png",
     "static/media/caso10.png": "/portafolio-lesly/static/media/caso10.dc5c6b18ea2326c24e1c.png",
     "static/media/caso11.png": "/portafolio-lesly/static/media/caso11.fe1abdb80b0e77d3c023.png",
     "static/media/fondo.png": "/portafolio-lesly/static/media/fondo.0f04d50037a82c5f08d2.png",
+    "static/media/caso13.png": "/portafolio-lesly/static/media/caso13.27c9bfcedbe0e0e72c24.png",
     "static/media/caso8.png": "/portafolio-lesly/static/media/caso8.6ce93695e61afa5b5e34.png",
     "static/media/caso9.png": "/portafolio-lesly/static/media/caso9.43843f0a3d5d666deced.png",
     "static/media/caso3.png": "/portafolio-lesly/static/media/caso3.11ccc0d25e52a048229d.png",
@@ -35,10 +38,10 @@
     "static/media/tiktok-hover.svg": "/portafolio-lesly/static/media/tiktok-hover.7cf403907b0ce8eb27d6.svg",
     "static/media/tiktok.svg": "/portafolio-lesly/static/media/tiktok.d42f5148195af1936b4a08518213d10f.svg",
     "main.1d1764b5.css.map": "/portafolio-lesly/static/css/main.1d1764b5.css.map",
-    "main.1e216057.js.map": "/portafolio-lesly/static/js/main.1e216057.js.map"
+    "main.b713ea00.js.map": "/portafolio-lesly/static/js/main.b713ea00.js.map"
   },
   "entrypoints": [
     "static/css/main.1d1764b5.css",
-    "static/js/main.1e216057.js"
+    "static/js/main.b713ea00.js"
   ]
 }
